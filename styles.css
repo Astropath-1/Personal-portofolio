@@ -194,6 +194,8 @@ body{
         height: 38px; 
         font-size: 14px; 
         padding: 5px; 
+        position:absolute;
+        left:35%;
     }
 }
 
@@ -271,7 +273,7 @@ body{
         align-items: center;
         justify-content: center;
         bottom:250px;
-
+        left:35%;
     }
 
     .welcome-container p{
