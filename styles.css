@@ -170,6 +170,7 @@ body{
 @media (max-width: 401px) {
     #welcome-text h1 {
         padding: 20px;
+        margin-bottom: 15px;
         font-size: 30px; /* Reduced font size for better mobile readability */
     }
     #welcome-text p {
