@@ -169,18 +169,22 @@ body{
 
 @media (max-width: 400px) {
     #welcome-text h1 {
-        padding: 20px;
-        margin-bottom: 15px;
-        font-size: 30px; /* Reduced font size for better mobile readability */
+        padding: 15px; /* Adjusted padding for better spacing */
+        margin-bottom: 10px; /* Reduced margin for compact layout */
+        font-size: 28px; /* Slightly reduced font size for better fit */
+        line-height: 1.2; /* Improved line height for readability */
     }
     #welcome-text p {
-        font-size: 13px; /* Reduced font size for better mobile readability */
-        padding: 10px; /* Reduced padding for smaller screens */
+        font-size: 14px; /* Slightly increased font size for readability */
+        padding: 8px; /* Optimized padding for content balance */
+        line-height: 1.5; /* Increased line height for better readability */
     }
     #my-works-button {
-        width: 100px; /* Smaller button for smaller screens */
-        height: 35px; /* Smaller button height for better fit */
-        font-size: 13px; /* Smaller font size for button text */
+        width: 110px; /* Adjusted width for better visual appeal */
+        height: 38px; /* Adjusted height for better touch interaction */
+        font-size: 14px; /* Increased font size for better visibility */
+        padding: 5px; /* Added padding for a better button feel */
+        border-radius: 5px; /* Rounded corners for a modern look */
     }
 }
 
