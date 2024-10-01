@@ -226,7 +226,7 @@ body{
     .welcome-container h1{
         z-index: 31;
         display: flex;
-        font-size:45px;
+        font-size:40px;
         position: relative; /* Changed from absolute to relative */
         align-items: center;
         justify-content: center;
