@@ -145,6 +145,7 @@ body{
 }
 
 #my-works-button{
+    
     width:120px;
     height:40px;
     display:flex;
@@ -154,18 +155,27 @@ body{
     color:#CCFF33;
     transition: 0.3s;
     position:relative;
+    
  
 
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
     
 }
 
+#my-works-button a{
+    color: inherit;
+
+}
 #my-works-button:hover{
     background-color: #CCFF33;
     border:#004B23 1px solid;
     color:#004B23;
     transition: 0.3s;
 }
+#my-works-button a:hover{
+    color: #004B23;
+}
+
 
 @media (max-width: 400px) {
     #welcome-text h1 {
