@@ -70,21 +70,7 @@ body{
     
 }
 
-@media (max-width: 400px) {
-    #welcome-text h1 {
-        padding: 20px;
-        font-size: 40px; /* Reduced font size for better mobile readability */
-    }
-    #welcome-text p {
-        font-size: 16px; /* Reduced font size for better mobile readability */
-        padding: 10px; /* Reduced padding for smaller screens */
-    }
-    #my-works-button {
-        width: 100px; /* Smaller button for smaller screens */
-        height: 35px; /* Smaller button height for better fit */
-        font-size: 14px; /* Smaller font size for button text */
-    }
-}
+
 
 #guy-container{
     display:flex;
@@ -181,13 +167,28 @@ body{
     transition: 0.3s;
 }
 
+@media (max-width: 401px) {
+    #welcome-text h1 {
+        padding: 20px;
+        font-size: 30px; /* Reduced font size for better mobile readability */
+    }
+    #welcome-text p {
+        font-size: 13px; /* Reduced font size for better mobile readability */
+        padding: 10px; /* Reduced padding for smaller screens */
+    }
+    #my-works-button {
+        width: 100px; /* Smaller button for smaller screens */
+        height: 35px; /* Smaller button height for better fit */
+        font-size: 13px; /* Smaller font size for button text */
+    }
+}
 
 @media (max-width: 600px) {
 
     *{
         max-width:100%;
     }
-    
+
     #navbar-container{
         backdrop-filter: blur(10px);
         box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
@@ -205,15 +206,15 @@ body{
     #alpha{
         position: absolute;
         background-color:rgba(0, 0, 0, 0.3);
-        width:100%;
-        height:100%;
+        width:100vh;
+        height:100vh;
         z-index:4;
         
     }
     #guy-container{
         position:absolute;
-        width:100%;
-        height:100%;
+        width:100vh;
+        height:100vh;
     }
     #guy{
         position: absolute;
@@ -227,7 +228,7 @@ body{
         display: flex;
         position:absolute;
         width:100%;
-        height:100%;
+        height:100vh;
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -236,7 +237,7 @@ body{
     .welcome-container h1{
         z-index: 31;
         display: flex;
-        font-size:40px;
+        font-size:45px;
         position: relative; /* Changed from absolute to relative */
         align-items: center;
         justify-content: center;
@@ -266,7 +267,7 @@ body{
         bottom:300px;
     }
     #project-tile-container{
-        width:85%;
+        width:85vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -357,7 +358,7 @@ body{
 
 #contact{
     display: flex;;
-    height:100%;
+    height:100vh;
     width: 100%;
     flex-direction: column;
     justify-content: center;
