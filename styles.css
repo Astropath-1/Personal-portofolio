@@ -170,13 +170,13 @@ body{
 @media (max-width: 400px) {
     #welcome-text h1 {
         padding: 15px; /* Adjusted padding for better spacing */
-        margin-bottom: 5px; /* Reduced margin for compact layout */
-        font-size: 32px; /* Slightly reduced font size for better fit */
+        margin-bottom: 10px; /* Reduced margin for compact layout */
+        font-size: 28px; /* Slightly reduced font size for better fit */
         line-height: 1.2; /* Improved line height for readability */
     }
     #welcome-text p {
         font-size: 14px; /* Slightly increased font size for readability */
-        padding: 17px; /* Optimized padding for content balance */
+        padding: 8px; /* Optimized padding for content balance */
         line-height: 1.5; /* Increased line height for better readability */
     }
     #my-works-button {
