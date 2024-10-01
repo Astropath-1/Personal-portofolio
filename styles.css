@@ -70,12 +70,19 @@ body{
     
 }
 
-@media (min-width: 400px) {
-    #welcome h1 {
-        padding:20px;
+@media (max-width: 400px) {
+    #welcome-text h1 {
+        padding: 20px;
+        font-size: 40px; /* Reduced font size for better mobile readability */
     }
-    #welcome-section{
-        font-size:75%;
+    #welcome-text p {
+        font-size: 16px; /* Reduced font size for better mobile readability */
+        padding: 10px; /* Reduced padding for smaller screens */
+    }
+    #my-works-button {
+        width: 100px; /* Smaller button for smaller screens */
+        height: 35px; /* Smaller button height for better fit */
+        font-size: 14px; /* Smaller font size for button text */
     }
 }
 
