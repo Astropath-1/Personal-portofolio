@@ -167,7 +167,7 @@ body{
     transition: 0.3s;
 }
 
-@media (max-width: 401px) {
+@media (max-width: 400px) {
     #welcome-text h1 {
         padding: 20px;
         margin-bottom: 15px;
