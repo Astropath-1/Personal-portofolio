@@ -176,7 +176,7 @@ body{
     }
     #welcome-text p {
         font-size: 14px; /* Slightly increased font size for readability */
-        padding: 13px; /* Optimized padding for content balance */
+        padding: 17px; /* Optimized padding for content balance */
         line-height: 1.5; /* Increased line height for better readability */
     }
     #my-works-button {
