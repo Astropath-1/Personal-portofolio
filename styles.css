@@ -74,6 +74,9 @@ body{
     #welcome h1 {
         padding:20px;
     }
+    #welcome-section{
+        font-size:75%;
+    }
 }
 
 #guy-container{
