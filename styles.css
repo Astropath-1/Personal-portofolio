@@ -198,6 +198,11 @@ body{
         left:35%;
     }
 }
+@media (max-width: 425px) {
+    #welcome-text h1{
+        font-size:35px;
+    }
+}
 
 @media (max-width: 600px) {
 
@@ -254,12 +259,12 @@ body{
         z-index: 31;
         display: flex;
         font-size:43px;
-        position: relative; /* Changed from absolute to relative */
+        position: relative; 
         align-items: center;
         justify-content: center;
         width:80%;
         height:100%;
-        text-align: center; /* Added to center the text */
+        text-align: center; 
         
     
     }
@@ -278,7 +283,7 @@ body{
 
     .welcome-container p{
         font-size: 15px;
-        position: relative; /* Changed from absolute to relative */
+        position: relative; 
         z-index:4;
         bottom:300px;
     }
